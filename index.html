@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png" />
 
     <title>Car Advocates</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="assets/css/carousel.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -22,99 +22,124 @@
     <![endif]-->
   </head>
 
+<!-- NAVBAR
+================================================== -->
   <body>
 
-    <div class="container">
-      <!--<div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">Car Advocates</h3>
-      </div>-->
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/images/mustang-top.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><label for="mce-EMAIL">Car Advocates<sup>Beta</sup></label></h1>
+            </div>
+          </div>
+        </div>
 
-      <div class="jumbotron">
-        <h1><label for="mce-EMAIL">Car Advocates<sup>Beta</sup></label></h1>
-        <p>Let us know if you're interested by subscribing to our updates.</p>
-        <form action="http://elevenbasetwo.us7.list-manage1.com/subscribe/post?u=eb1a30a267f5cf966e8006590&amp;id=e16f5ac74f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <p class="lead">
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@address.com" required>
-        </p>
-        <p>
-          <input type="submit" value="I'm interested!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-success">
-        </p>
-        </form>
-		<p>
-			<a href="https://twitter.com/caradvocates" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @CarAdvocates</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		</p>
       </div>
+
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-12">
-          <h3>What we want to do for you!</h3>
+        <div class="col-lg-4">
+          <h2><span class="glyphicon glyphicon-pencil"> </span> Describes</h2>
+          <p>We have a place to write down every detail of your dream car. As many details as possible. If you want a certain price range, year range, trim package, just write it down as though you're sending us a letter.</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2><span class="glyphicon glyphicon-edit"></span> Review.</h2>
+          <p>We'll review the description of your dream car and then go track it down! We want to keep car dealers from contacting you too much so you can focus on figuring out the car you're looking for.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2><span class="glyphicon glyphicon-link"></span> Buy.</h2>
+          <p>Once you've recieved all the information you need, we will do waht we can to help you purchase your new ride and possibly deliver it for you!</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">We <span class="text-muted">love</span> cars.</h2>
+          <p class="lead">We have spent hundreds of hours looking in all the usual places for specific cars we love. Then we <em>realized</em> how great it might be if someone sent us many listings for each specific car we were looking for. That service is what we hope to bring to you...and hopefully much more!</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="assets/images/shelby.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="assets/images/ferarri-f12.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">We want to give you an <span class="text-muted">edge!</span></h2>
+          <p class="lead">We'll take all the details you give us and dig into the history of your car. We'll try and find the little things about it that you love about your dream car so that we know what to look for when we go out and track it down.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">We need your <span class="text-muted">help!</span></h2>
+          <p class="lead">We can't do this without you! We need to know that you're interested and want us to continue developing this idea!</p>
+          <p class="lead">Our goal is to change how people search and buy rare, classic and exotic cars. We want to bring you a service that is as unique and brilliant as the cars you're buying.</p>
+
+          <p class="lead">Let us know if you're interested by subscribing to our updates and following us on Twitter.</p>
+
+        </div>
+        <div class="col-md-5">
+          <h2 class="featurette-heading">Get Updates.</h2>
+          <form action="http://elevenbasetwo.us7.list-manage1.com/subscribe/post?u=eb1a30a267f5cf966e8006590&amp;id=e16f5ac74f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <p class="lead">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@address.com" required>
+            <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-success">
+          </p>
+          </form>
           <p>
-            
+            <a href="https://twitter.com/caradvocates" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @CarAdvocates</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </p>
-        </div>
-        <div class="col-lg-6">
-          <h4>How it works</h4>
-          <p>Send us as many details about your future car as you can!</p>
-
-          <h4>Next!</h4>
-          <p>We'll give you some information about the car or class of car you're searching for. Some information we <em>hope</em> to provide you...</p>
-	  <ul>
-		<li>Car model reliability ratings by year</li>
-		<li>Average cost per year to own with gas/insurance/maintenance/depreciation</li>
-		<li>5 year resale outlook</li>
-		<li>Common costs of ownership</li>
-		<li>Some history about your car</li>
-	</ul>
-
-          <h4>and Finally...</h4>
-          <p>Once you've pointed us in the right direction, we'll search our approved dealerships and contacts to find your car!</p>
-        </div>
-
-        <div class="col-lg-6">
-          <h4>Why Car Advocates?</h4>
-          <p>We <strong>love</strong> to see people love their cars! We found that our experience at car dealerships wasn't unique to our friends.
-      It's rare to find a car dealership that has salesman that really know a lot about the cars they're selling. It's also
-      rare to find salesmen that want to get you in a car you'll love even if it's not on their lot at that moment.
-          </p>
-
-          <h4>Goal</h4>
-          <p>Our goal is to put you in a car that you'll fall in love with and connect you with dealerships that genuinely want to help you.</p>
-
-          <h4></h4>
-          <p></p>
         </div>
       </div>
 
-      <div class="footer">
-        <p>&copy; Company 2013</p>
-      </div>
+      <hr class="featurette-divider">
 
-    </div> <!-- /container -->
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
-    <script>
-
-
-    $(document).ready(function() {
-      var terms = [ 'website', 'service', 'app', 'office', 'business', 'product', 'process', 'life' ];
-
-      function rotateTerm() {
-        var ct = $("#rotate").data("term") || 0;
-        $("#rotate").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct])
-                .show(500).delay(3000).hide(500, rotateTerm);
-      }
-      $(rotateTerm);
-    });
-
-    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/holder.js"></script>
   </body>
 </html>
